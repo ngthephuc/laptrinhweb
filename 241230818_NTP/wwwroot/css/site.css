@@ -1,0 +1,104 @@
+.banner img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+}
+
+.product {
+    width: 25%;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+    .product img {
+        width: 100%;
+        height: 220px;
+        object-fit: contain;
+    }
+
+    .product p {
+        font-size: 18px;
+    }
+.banner img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.products {
+    display: flex;
+    gap: 20px;
+}
+
+.product {
+    width: 25%;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 10px;
+}
+
+    .product img {
+        width: 100%;
+        height: 220px;
+        object-fit: contain;
+    }
+
+    .product p {
+        font-size: 18px;
+    }
+.navbar {
+    background-color: #222;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+}
+
+    .navbar a {
+        color: white;
+        text-decoration: none;
+        margin-right: 30px;
+        font-size: 16px;
+    }
+
+        .navbar a:hover {
+            color: #ddd;
+        }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+td img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+.btn {
+    padding: 7px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: #198754;
+    color: white;
+}
