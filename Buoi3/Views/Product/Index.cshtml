@@ -1,0 +1,110 @@
+﻿@model List<Buoi3.Models.Product>
+
+@{
+    ViewData["Title"] = "Sản phẩm";
+    var categories = ViewBag.Categories as List<Buoi3.Models.Category>;
+}
+
+<div class="container" style="margin-top: 30px;">
+
+    <div class="row">
+
+        <!-- DANH MỤC -->
+        <div class="col-md-3">
+
+            <h3>DANH MỤC</h3>
+
+            <div class="list-group">
+
+                <!-- Tất cả sản phẩm -->
+                @Html.ActionLink(
+                    "Tất cả sản phẩm",
+                    "Index",
+                    "Product",
+                    null,
+                    new { @class = "list-group-item" }
+                )
+
+                @foreach (var category in categories)
+                {
+                    @Html.ActionLink(
+                        category.Name,
+                        "Index",
+                        "Product",
+                        new { categoryId = category.Id },
+                        new { @class = "list-group-item" }
+                    )
+                }
+
+            </div>
+
+        </div>
+
+
+        <!-- DANH SÁCH SẢN PHẨM -->
+        <div class="col-md-9">
+
+            <h2>Danh sách sản phẩm</h2>
+
+            <div class="row">
+
+                @foreach (var product in Model)
+                {
+                    <div class="col-md-4" style="margin-bottom: 25px;">
+
+                        <div class="thumbnail"
+                             style="min-height: 430px;">
+
+                            <!-- Ảnh -->
+                            <img src="~/images/@product.Image"
+                                 alt="@product.Name"
+                                 style="width:100%; height:250px; object-fit:cover;" />
+
+                            <div class="caption">
+
+                                <!-- Tên -->
+                                <h4 style="min-height:50px;">
+                                    @product.Name
+                                </h4>
+
+                                <!-- Giá -->
+                                <p>
+                                    <del>
+                                        Giá: @product.Price.ToString("N0")
+                                    </del>
+                                    <br />
+
+                                    <strong style="color:red;">
+                                        Giá mới:
+                                        @product.SalePrice.ToString("N0")
+                                    </strong>
+                                </p>
+
+                                <!-- Chi tiết -->
+                                <p>
+                                    @Html.ActionLink(
+                                        "Chi tiết",
+                                        "Detail",
+                                        "Product",
+                                        new { id = product.Id },
+                                        new
+                                        {
+                                            @class = "btn btn-success btn-block"
+                                        }
+                                    )
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                }
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
