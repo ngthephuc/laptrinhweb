@@ -1,0 +1,74 @@
+﻿@model List<Buoi4.Models.Product>
+
+@{
+    ViewData["Title"] = "Trang chủ";
+
+    var categories = new List<Buoi4.Models.Category>
+    {
+        new Buoi4.Models.Category { Id = 1, Name = "Áo dài" },
+        new Buoi4.Models.Category { Id = 2, Name = "Áo đông" },
+        new Buoi4.Models.Category { Id = 3, Name = "Túi xách" },
+        new Buoi4.Models.Category { Id = 4, Name = "Đồng hồ" },
+        new Buoi4.Models.Category { Id = 5, Name = "Ví da" },
+        new Buoi4.Models.Category { Id = 6, Name = "Thắt lưng" },
+        new Buoi4.Models.Category { Id = 7, Name = "Tủ lạnh" },
+        new Buoi4.Models.Category { Id = 8, Name = "Tivi" },
+        new Buoi4.Models.Category { Id = 9, Name = "Quạt điện" },
+        new Buoi4.Models.Category { Id = 10, Name = "Lò sưởi" }
+    };
+}
+
+<div class="main-container">
+
+    <!-- CỘT TRÁI -->
+    <div class="left-column">
+
+        <partial name="_CategoryPartial" model="categories" />
+
+        <div class="banner">
+            <img src="/images/banner.jpg" alt="Banner" />
+        </div>
+
+    </div>
+
+
+    <!-- CỘT PHẢI -->
+    <div class="right-column">
+
+        <!-- SẢN PHẨM MỚI NHẤT -->
+        <div class="section-title">
+            Sản phẩm mới nhất
+        </div>
+
+        <div class="product-list">
+
+            @foreach (var product in Model)
+            {
+                <div class="product-card">
+
+                    <img src="@product.Image" alt="@product.Name" />
+
+                    <div class="product-name">
+                        @product.Name
+                    </div>
+
+                    <div class="product-price">
+                        @product.Price.ToString("N0") VNĐ
+                    </div>
+
+                </div>
+            }
+
+        </div>
+
+
+        <!-- HOT PRODUCT -->
+        <div class="section-title hot-title">
+            Sản phẩm nổi bật
+        </div>
+
+        @await Component.InvokeAsync("HotProduct")
+
+    </div>
+
+</div>

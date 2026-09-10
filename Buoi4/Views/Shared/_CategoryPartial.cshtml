@@ -1,0 +1,16 @@
+﻿@model List<Buoi4.Models.Category>
+
+<div class="category-box">
+
+    <div class="category-title">
+        Danh mục sản phẩm
+    </div>
+
+    @foreach (var category in Model)
+    {
+        <div class="category-item">
+            @category.Name
+        </div>
+    }
+
+</div>
