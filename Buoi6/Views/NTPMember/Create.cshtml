@@ -1,0 +1,48 @@
+@model Buoi6.Models.NTPMember
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>NTPMember</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="NTPCreate" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="NTPMemberUserName" class="control-label"></label>
+                <input asp-for="NTPMemberUserName" class="form-control" />
+                <span asp-validation-for="NTPMemberUserName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NTPMemberPassword" class="control-label"></label>
+                <input asp-for="NTPMemberPassword" class="form-control" />
+                <span asp-validation-for="NTPMemberPassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NTPMemberFullName" class="control-label"></label>
+                <input asp-for="NTPMemberFullName" class="form-control" />
+                <span asp-validation-for="NTPMemberFullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="NTPMemberEmail" class="control-label"></label>
+                <input asp-for="NTPMemberEmail" class="form-control" />
+                <span asp-validation-for="NTPMemberEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

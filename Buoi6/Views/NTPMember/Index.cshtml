@@ -1,0 +1,53 @@
+@model IEnumerable<Buoi6.Models.NTPMember>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="NTPCreate">Create New</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NTPMemberUserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NTPMemberPassword)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NTPMemberFullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NTPMemberEmail)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(model => item.NTPMemberUserName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.NTPMemberPassword)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.NTPMemberFullName)
+            </td>
+            <td>
+                @Html.DisplayFor(model => item.NTPMemberEmail)
+            </td>
+            <td>
+                <a asp-action="NTPEdit" asp-route-id="@item.NTPMemberID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.NTPMemberID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.NTPMemberID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
