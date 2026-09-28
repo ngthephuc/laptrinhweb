@@ -1,0 +1,36 @@
+﻿@model List<DemoSlide.Models.DataModels.Member>
+
+<h2>Danh sách thành viên</h2>
+
+<p>
+    <a asp-controller="Member"
+       asp-action="Create"
+       class="btn btn-primary">
+        Đăng ký thành viên
+    </a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên đăng nhập</th>
+            <th>Họ và tên</th>
+            <th>Email</th>
+            <th>Điện thoại</th>
+            <th>Ngày sinh</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var member in Model)
+        {
+            <tr>
+                <td>@member.UserName</td>
+                <td>@member.FullName</td>
+                <td>@member.Email</td>
+                <td>@member.Phone</td>
+                <td>@member.Birthday.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>

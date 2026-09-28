@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|d:\\ki1nam3\\ltweb\\laptrinhweb\\buoi3\\buoi3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|solutionrelative:buoi3.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|d:\\ki1nam3\\ltweb\\laptrinhweb\\buoi3\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|solutionrelative:views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|d:\\ki1nam3\\ltweb\\laptrinhweb\\buoi3\\views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|solutionrelative:views\\product\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|d:\\ki1nam3\\ltweb\\laptrinhweb\\buoi3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|d:\\ki1nam3\\ltweb\\laptrinhweb\\buoi3\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|d:\\ki1nam3\\ltweb\\laptrinhweb\\buoi3\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|solutionrelative:models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|d:\\ki1nam3\\ltweb\\laptrinhweb\\buoi3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|d:\\ki1nam3\\ltweb\\laptrinhweb\\buoi3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|d:\\ki1nam3\\ltweb\\laptrinhweb\\buoi3\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77E5632B-16CC-FC2D-A860-879DA1B5C811}|Buoi3.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Buoi3.csproj",
+              "DocumentMoniker": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Buoi3.csproj",
+              "RelativeDocumentMoniker": "Buoi3.csproj",
+              "ToolTip": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Buoi3.csproj",
+              "RelativeToolTip": "Buoi3.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-21T01:25:25.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAC0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-27T13:35:00.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T13:33:17.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Views\\Product\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Detail.cshtml",
+              "ToolTip": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Views\\Product\\Detail.cshtml",
+              "RelativeToolTip": "Views\\Product\\Detail.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-27T13:30:52.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Product\\Index.cshtml",
+              "ToolTip": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAcwB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-08-27T13:30:13.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T13:28:05.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Models\\Product.cs",
+              "ToolTip": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Models\\Product.cs",
+              "RelativeToolTip": "Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T13:26:57.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-27T13:26:21.777Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Ki1Nam3\\LTWeb\\LapTrinhWeb\\Buoi3\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T01:26:02.611Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
