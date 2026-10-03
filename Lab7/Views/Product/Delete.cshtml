@@ -1,0 +1,22 @@
+﻿```cshtml
+@model NetCoreMVC_LAB05.Models.Product
+
+<h2>Xóa sản phẩm</h2>
+
+<h4>Bạn có chắc chắn muốn xóa sản phẩm này không?</h4>
+
+<div class="mb-3">
+    <p><strong>Mã sản phẩm:</strong> @Model.ProductId</p>
+    <p><strong>Tên sản phẩm:</strong> @Model.ProductName</p>
+    <p><strong>Giá:</strong> @Model.Price.ToString("N0")</p>
+    <p><strong>Mô tả:</strong> @Model.Description</p>
+    <p><strong>Mã danh mục:</strong> @Model.CategoryId</p>
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="ProductId" />
+
+    <button type="submit" class="btn btn-danger">Xác nhận xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Hủy</a>
+</form>
+```

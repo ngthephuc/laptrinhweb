@@ -1,0 +1,16 @@
+﻿@model NetCoreMVC_LAB05.Models.Category
+
+<h2>Xóa danh mục</h2>
+
+<p>Bạn có chắc chắn muốn xóa danh mục này không?</p>
+
+<p><strong>Mã danh mục:</strong> @Model.CategoryId</p>
+<p><strong>Tên danh mục:</strong> @Model.CategoryName</p>
+<p><strong>Mô tả:</strong> @Model.Description</p>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="CategoryId" />
+
+    <button type="submit" class="btn btn-danger">Xác nhận xóa</button>
+    <a asp-action="Index" class="btn btn-secondary">Quay lại</a>
+</form>
