@@ -1,0 +1,9 @@
+namespace NguyenThePhuc_241230818_DeThiMau.Models
+{
+    public class ErrorViewModel
+    {
+        public string? RequestId { get; set; }
+
+        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    }
+}

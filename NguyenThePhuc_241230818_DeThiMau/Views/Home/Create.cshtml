@@ -1,0 +1,49 @@
+﻿
+@model NguyenThePhuc_241230818_DeThiMau.Models.HangHoa
+
+@{
+    ViewData["Title"] = "Thêm hàng hóa mới";
+}
+
+<div class="content">
+    <h3>Nguyễn Thế Phúc</h3>
+    <h3>Thêm Hàng Hóa Mới</h3>
+    <hr />
+
+    <form asp-controller="Home" asp-action="Create" method="post">
+
+        <div>
+            <label asp-for="MaLoai">MaLoai</label><br />
+            <select asp-for="MaLoai" class="form-control">
+                @if (ViewBag.LoaiHangs != null)
+                {
+                    foreach (var loai in ViewBag.LoaiHangs)
+                    {
+                        <option value="@loai.MaLoai">@loai.TenLoai</option>
+                    }
+                }
+            </select>
+        </div>
+
+        <div>
+            <label asp-for="TenHang">TenHang</label><br />
+            <input asp-for="TenHang" class="form-control" />
+            <span asp-validation-for="TenHang" style="color:red"></span>
+        </div>
+
+        <div>
+            <label asp-for="Gia">Gia</label><br />
+            <input asp-for="Gia" class="form-control" />
+            <span asp-validation-for="Gia" style="color:red"></span>
+        </div>
+
+        <div>
+            <label asp-for="Anh">Anh</label><br />
+            <input asp-for="Anh" class="form-control" />
+            <span asp-validation-for="Anh" style="color:red"></span>
+        </div>
+
+        <br />
+        <button type="submit">Create</button>
+    </form>
+</div>

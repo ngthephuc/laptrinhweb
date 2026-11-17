@@ -1,0 +1,36 @@
+﻿
+@model IEnumerable<NguyenThePhuc_241230818_DeThiMau.Models.HangHoa>
+
+<div class="section group">
+    @foreach (var item in Model)
+    {
+        <div class="grid_1_of_4 images_1_of_4">
+            <a href="#">
+                @if (!string.IsNullOrEmpty(item.Anh))
+                {
+                    <img src="@Url.Content("~/Content/images/" + item.Anh)"
+                         alt="@item.TenHang" />
+                }
+                else
+                {
+                    <img src="@Url.Content("~/Content/images/no-image.png")"
+                         alt="Chưa có ảnh" />
+                }
+            </a>
+
+            <h2>@item.TenHang</h2>
+
+            <p>
+                <span class="price">
+                    @item.Gia?.ToString("N0") VNĐ
+                </span>
+            </p>
+
+            <div class="button">
+                <span>
+                    <a href="#" class="details">Chi tiết</a>
+                </span>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,57 @@
+﻿
+@model IEnumerable<NguyenThePhuc_241230818_DeThiMau.Models.HangHoa>
+
+@{
+    ViewData["Title"] = "Trang chủ";
+}
+
+<div class="content">
+    <div class="content_top">
+        <div class="heading">
+            <h3>Danh sách hàng hóa</h3>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div style="margin: 20px 0;">
+        <label for="maLoai"><b>Lọc theo loại hàng:</b></label>
+
+        <select id="maLoai" class="form-control" style="width:250px; display:inline-block;">
+            <option value="0">Tất cả loại hàng</option>
+
+            @if (ViewBag.LoaiHangs != null)
+            {
+                foreach (var loai in ViewBag.LoaiHangs)
+                {
+                    <option value="@loai.MaLoai">@loai.TenLoai</option>
+                }
+            }
+        </select>
+    </div>
+
+    <div id="danhSachHangHoa">
+        @await Html.PartialAsync("_DanhSachHangHoa", Model)
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            $("#maLoai").change(function () {
+                var maLoai = $(this).val();
+
+                $.ajax({
+                    url: '/Home/LocHangHoa',
+                    type: 'GET',
+                    data: { maLoai: maLoai },
+                    success: function (result) {
+                        $("#danhSachHangHoa").html(result);
+                    },
+                    error: function () {
+                        alert("Lỗi khi lọc hàng hóa!");
+                    }
+                });
+            });
+        });
+    </script>
+}
